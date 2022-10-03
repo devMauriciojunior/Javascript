@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Meu primeiro programa..</title>
+   <style>
+      body {
+         background-color: darkslateblue;
+         color: beige;
+      }
+   </style>
+</head>
+<body>
+   <h1>Hello, World!</h1>
+   <script>
+      var n1 = Number.parseInt(window.prompt('Digite um número: ')) //numero inteiro
+      //Number.parseInt ou Float converte string para numero real ou inteiro (real numero com virgula)
+      var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+      var s = n1 + n2
+      window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+      // ${} é significa template string
+      // String ou to.String converte um numero para string
+      // (number + number) para adição
+      // (string + string) para concatenação
+   </script>
+</body>
+</html>

@@ -1,6 +1,7 @@
 No JS:
 
 1 sinal de = significa 'recebe'
+sinal de + significa 'concatenação'
 
 Identificadores: 
    * Podem começar com letra, $ ou _.
@@ -13,6 +14,9 @@ Identificadores:
 Dicas:
    * Letras Maiúsculas e Minúsculas fazem diferença.
    * Escolher nomes coerentes para as Variavéis.
+
+O que são Variavéis?
+ Variável é um espaço reservado na memória do computador que serve para armazenar um determinado tipo de informação.
 
 Variavéis: var e let.
 Strings = conjunto de caracteres com numeros, traços e pontos.
