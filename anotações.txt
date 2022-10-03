@@ -1,0 +1,27 @@
+No JS:
+
+1 sinal de = significa 'recebe'
+
+Identificadores: 
+   * Podem começar com letra, $ ou _.
+   * Não podem começar com numeros.
+   * É possivel usar letras e números.
+   * É possivel usar simbolos e acentos.
+   * Não podem conter espaços (utiliza-se _).
+   * Não podem ser palavras reservadas (palavras que o JS usa como funções ou).
+
+Dicas:
+   * Letras Maiúsculas e Minúsculas fazem diferença.
+   * Escolher nomes coerentes para as Variavéis.
+
+Variavéis: var e let.
+Strings = conjunto de caracteres com numeros, traços e pontos.
+Strings podem usar 3 'aspas': "string1", 'string2' e `string3`
+
+
+Tipos de Dados
+
+   Tipos primitivos primordiais:
+   Number: 5 18 -12 3.14 -56.3 0.6
+   Strings: 'Google' "JavaScript" `Junioor`
+   Boolean: true false
