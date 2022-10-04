@@ -35,3 +35,33 @@ Var n1 = 1543.5
 n1.toFixed(2) // Coloca em duas casas decimais (para colocar em mais ou menos casas troque o numero entre parênteses)
 n1.toLocaleString( ‘pt-BR’, {style: ‘currecy’, currency: ‘BRL’}) // Coloca o R$ na frente do numero (pode trocar entre outras moedas)
 n1.replace (‘.’, ‘,’) // Troca o ponto pela virgula
+
+Operadores:
+Tipos de operadores:
+
+Aritméticos
+Atribuição
+relacionais
+lógicos
+ternarios
+
+Operadores Aritméticos:
+   +  Somar   
+   -  Subtrair
+   *  Multiplicação 
+   /  divisão
+   %  Resto de uma divisão 
+   ** Potencia do primeiro numero elevado ao segundo
+
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 = 1
+5 ** 2 = 25
+
+Ordem de precedência dos Operadores Aritméticos:
+   1- ()
+   2- **
+   3- * / %
+   4- + -
