@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      body {
+         background-color: darkslateblue;
+         color: white;
+         font-family: monospace;
+         font-size: 2rem;
+         }
+   </style>
+</head>
+<body>
+   
+
+
+   <script>
+      var A = Number(window.prompt('Digite um número'))
+      var B = Number(window.prompt('Digite um número'))
+      var C = Number(window.prompt('Digite um número'))
+
+      document.write(`Seu A é <strong>${A}</strong>, seu B é <strong>${B}</strong> e seu C é <strong>${C}</strong> </br>`)
+
+      var delta = (B*B)-4*A*C
+
+      if(delta < 0) {
+		document.write('Para Delta negativo, não existem raízes reais. </br>')
+		} else
+
+      var x1 = (-B + Math.sqrt(delta)) / (2*A)
+      var x2 = (-B - Math.sqrt(delta)) / (2*A)
+
+      document.write(`O resultado é ${x1} e ${x2}`)
+   </script>
+</body>
+</html>
