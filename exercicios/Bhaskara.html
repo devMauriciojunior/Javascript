@@ -7,10 +7,10 @@
    <title>Document</title>
    <style>
       body {
-         background-color: darkslateblue;
+         background-color: rgb(37, 30, 83);
          color: white;
          font-family: monospace;
-         font-size: 2rem;
+         font-size: 3rem;
          }
    </style>
 </head>
@@ -23,18 +23,18 @@
       var B = Number(window.prompt('Digite um número'))
       var C = Number(window.prompt('Digite um número'))
 
-      document.write(`Seu A é <strong>${A}</strong>, seu B é <strong>${B}</strong> e seu C é <strong>${C}</strong> </br>`)
+      document.write(`A = <strong>${A}</strong></br> B = <strong>${B}</strong></br> C = ${C}</strong> </br>`)
 
       var delta = (B*B)-4*A*C
 
       if(delta < 0) {
-		document.write('Para Delta negativo, não existem raízes reais. </br>')
+		document.write('Para Delta negativo, não existem raízes reais.</br>')
 		} else
 
       var x1 = (-B + Math.sqrt(delta)) / (2*A)
       var x2 = (-B - Math.sqrt(delta)) / (2*A)
 
-      document.write(`O resultado é ${x1} e ${x2}`)
+      document.write(`Resultado de x': <strong>${x1}</strong> </br> Resultado de x": <strong>${x2}</strong>`)
    </script>
 </body>
 </html>
