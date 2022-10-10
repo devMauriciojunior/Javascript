@@ -105,3 +105,12 @@ Operadores ternarios
    :
 
    'teste logico ? true : false'
+
+DOM == Document Object Model
+
+   Utilizando DOM => Selecionando objetos
+      por Marca → getElementsByTagName()
+      por ID → getElementsById()
+      por Nome → getElementsByName()
+      por Classe → getElementsByClassName()
+      por Seletor → querrySelector() querrySelectorAll()
