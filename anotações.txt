@@ -114,3 +114,8 @@ DOM == Document Object Model
       por Nome → getElementsByName()
       por Classe → getElementsByClassName()
       por Seletor → querrySelector() querrySelectorAll()
+
+Funções 
+   function 'nome da função'(param) {
+      'códigos da função'
+   }
