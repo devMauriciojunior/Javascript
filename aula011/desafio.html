@@ -22,12 +22,12 @@
 
    <script>
       function verificar(){
-         var pega = document.getElementById('país')
+         var txt = document.getElementById('país')
          var res = document.getElementById('resultado')
-         var país = (pega.value)
+         var pais = (txt.value)
 
-         if (país == brasil) {
-            res.innerHTML = `Você veio de ${país}`
+         if (pais == brasil) {
+            res.innerHTML = `Você veio de ${pais}`
          } else {
             res.innerHTML = "Você é Estrangeiro"
          }
