@@ -119,3 +119,10 @@ Funções
    function 'nome da função'(param) {
       'códigos da função'
    }
+
+Condições 
+      if (condição) {   | 'condição simples'
+         'true'         |
+   }  else {
+         'else'
+   }

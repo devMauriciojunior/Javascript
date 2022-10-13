@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      body {
+         background-color: rgb(75, 95, 114);
+         color: white;
+         text-align: center;
+         font: normal 20px arial;
+      }
+   </style>
+</head>
+<body>
+   <h1>Brasileiro ou estrangeiro?</h1>
+   Digite um país: <input type="text" id="país">
+   <input type="button" value="Verificar" onclick="verificar()">
+   <div id="resultado"></div>
+
+   <script>
+      function verificar(){
+         var pega = document.getElementById('país')
+         var res = document.getElementById('resultado')
+         var país = (pega.value)
+
+         if (país == brasil) {
+            res.innerHTML = `Você veio de ${país}`
+         } else {
+            res.innerHTML = "Você é Estrangeiro"
+         }
+      }
+   </script>
+</body>
+</html>
