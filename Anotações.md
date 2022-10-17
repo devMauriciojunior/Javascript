@@ -38,19 +38,19 @@
    - ternarios
 
 # Operadores Aritméticos:
-   +  Somar   
-   -  Subtrair
-   *  Multiplicação 
-   /  divisão
-   %  Resto de uma divisão 
-   ** Potencia do primeiro numero elevado ao segundo
+  - +  Somar   
+  - -  Subtrair
+  - *  Multiplicação 
+  - /  divisão
+  - %  Resto de uma divisão 
+  - ** Potencia do primeiro numero elevado ao segundo
 
-   5 + 2 = 7
-   5 - 2 = 3
-   5 * 2 = 10
-   5 / 2 = 2.5
-   5 % 2 = 1
-   5 ** 2 = 25
+  - 5 + 2 = 7
+  - 5 - 2 = 3
+  - 5 * 2 = 10
+  - 5 / 2 = 2.5
+  - 5 % 2 = 1
+  - 5 ** 2 = 25
 
 # Ordem de precedência dos Operadores Aritméticos:
    1. ()
@@ -60,63 +60,63 @@
 
 # Auto Atribuições:
    **var n = 3**
-      n = n + 4  | ele vai pegar ele mesmo e somar 4
-      n = n - 5  | ele vai pegar ele mesmo e subtrair 5
-      n = n * 4  | ele vai pegar ele mesmo e multiplicar por 4
-      n = n / 2  | ele vai pegar ele mesmo e dividir por 2
-      n = n ** 2 | ele vai pegar ele mesmo e elevar a potência de 2
-      n = n % 5  | ele vai pegar ele mesmo dividir por 5 e dar o resto
+     - n = n + 4  | ele vai pegar ele mesmo e somar 4
+     - n = n - 5  | ele vai pegar ele mesmo e subtrair 5
+     - n = n * 4  | ele vai pegar ele mesmo e multiplicar por 4
+     - n = n / 2  | ele vai pegar ele mesmo e dividir por 2
+     - n = n ** 2 | ele vai pegar ele mesmo e elevar a potência de 2
+     - n = n % 5  | ele vai pegar ele mesmo dividir por 5 e dar o resto
 
 # Auto Atribuições: **Forma Simplificada:**
    **var n = 3**
-      n += 4 
-      n -= 2
-      n *= 5
-      n /= 2
-      n **= 2
-      n %= 5
+     - n += 4 
+     - n -= 2
+     - n *= 5
+     - n /= 2
+     - n **= 2
+     - n %= 5
    
    **outra simplificação:**
-      n++  é a mesma coisa que n = n + 1 ou n += 1
-      n--  é a mesma coisa que n = n - 1 ou n -= 1
-      ++n  ele vai somar antes
-      --n  ele vai diminuir antes
+     - n++  é a mesma coisa que n = n + 1 ou n += 1
+     - n--  é a mesma coisa que n = n - 1 ou n -= 1
+     - ++n  ele vai somar antes
+     - --n  ele vai diminuir antes
 
 # Operadores relacionais
-   > maior que
-   < menor que 
-   >= maior ou igual
-   <= menor ou igual
-   == igual '=== igualdade estrita' '!== desigualdade estrita'
-   != diferente
+  - > maior que
+  - < menor que 
+  - >= maior ou igual
+  - <= menor ou igual
+  - == igual '=== igualdade estrita' '!== desigualdade estrita'
+  - != diferente
 
 # Operadores Logicos
    **Ordem de precedência dos Operadores Logicos:**
-      ! negação 'não logico'
-      && conjunção 'e logico'
-      || disjunção 'ou logico'
+     - ! negação 'não logico'
+     - && conjunção 'e logico'
+     - || disjunção 'ou logico'
 
 # Operadores ternarios
-   ? 
-   :
-   'teste logico ? true : false'
+ -  ? 
+ -  :
+ -  'teste logico ? true : false'
 
 # DOM == Document Object Model
-   **Utilizando DOM => Selecionando objetos**
-      por Marca → getElementsByTagName()
-      por ID → getElementsById()
-      por Nome → getElementsByName()
-      por Classe → getElementsByClassName()
-      por Seletor → querrySelector() querrySelectorAll()
+ -  **Utilizando DOM => Selecionando objetos**
+     - por Marca → getElementsByTagName()
+     - por ID → getElementsById()
+     - por Nome → getElementsByName()
+     - por Classe → getElementsByClassName()
+     - por Seletor → querrySelector() querrySelectorAll()
 
 # Funções 
-   function 'nome da função'(parâmetro){
+   `function 'nome da função'(parâmetro){
       'códigos da função'
-   }
+   }`
 
 # Condições 
-      if (condição) {   | 'condição simples'
-         'true'         |
+   `if (condição) {   | 'condição simples'
+         'true'       |
    }  else {
          'false'
-   }
+   }`
