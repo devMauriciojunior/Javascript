@@ -24,12 +24,12 @@
       function verificar(){
          var txt = document.getElementById('país')
          var res = document.getElementById('resultado')
-         var pais = (txt.value)
 
-         if (pais == brasil) {
-            res.innerHTML = `Você veio de ${pais}`
+         res.innerHTML = `<p>Você esta em <strong>${txt.value}</strong></p>`
+         if(txt.value == 'Brasil', 'brasil'){
+            res.innerHTML += `Você é brasileiro!`
          } else {
-            res.innerHTML = "Você é Estrangeiro"
+            res.innerHTML += `Você não é brasileiro!`
          }
       }
    </script>
