@@ -115,8 +115,10 @@
    }`
 
 # Condições 
-   `if (condição) {   | 'condição simples'
+```
+   if (condição) {   | 'condição simples'
          'true'       |
    }  else {
          'false'
-   }`
+   }
+```
