@@ -60,12 +60,12 @@
 
 # Auto Atribuições:
    **var n = 3**
-     - n = n + 4  | ele vai pegar ele mesmo e somar 4
-     - n = n - 5  | ele vai pegar ele mesmo e subtrair 5
-     - n = n * 4  | ele vai pegar ele mesmo e multiplicar por 4
-     - n = n / 2  | ele vai pegar ele mesmo e dividir por 2
-     - n = n ** 2 | ele vai pegar ele mesmo e elevar a potência de 2
-     - n = n % 5  | ele vai pegar ele mesmo dividir por 5 e dar o resto
+    - n = n + 4  | ele vai pegar ele mesmo e somar 4
+    - n = n - 5  | ele vai pegar ele mesmo e subtrair 5
+    - n = n * 4  | ele vai pegar ele mesmo e multiplicar por 4
+    - n = n / 2  | ele vai pegar ele mesmo e dividir por 2
+    - n = n ** 2 | ele vai pegar ele mesmo e elevar a potência de 2
+    - n = n % 5  | ele vai pegar ele mesmo dividir por 5 e dar o resto
 
 # Auto Atribuições: **Forma Simplificada:**
    **var n = 3**
@@ -91,10 +91,10 @@
   - != diferente
 
 # Operadores Logicos
-   **Ordem de precedência dos Operadores Logicos:**
-     - ! negação 'não logico'
-     - && conjunção 'e logico'
-     - || disjunção 'ou logico'
+ -  **Ordem de precedência dos Operadores Logicos:**
+    - ! negação 'não logico'
+    - && conjunção 'e logico'
+    - || disjunção 'ou logico'
 
 # Operadores ternarios
  -  ? 
@@ -110,9 +110,11 @@
      - por Seletor → querrySelector() querrySelectorAll()
 
 # Funções 
-   `function 'nome da função'(parâmetro){
+```
+   function 'nome da função'(parâmetro){
       'códigos da função'
-   }`
+   }
+```
 
 # Condições 
 ```
