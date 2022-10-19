@@ -119,8 +119,8 @@
 # Condições 
 ```
    if (condição) {   | 'condição simples'
-         'true'       |
-   }  else {
+         'true'      |
+   }  else {         | 'condição composta'
          'false'
    }
 ```
