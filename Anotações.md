@@ -124,3 +124,30 @@
          'false'
    }
 ```
+```
+   if (condição) {   | 'condição aninhada'
+         'bloco1'
+   }  else {
+         if (condição) {
+            'bloco2'
+         } else {
+            'bloco3'
+         }
+   }
+```
+```
+switch (expressão) {  | 'condição múltipla'
+   case valor1:
+
+         **Break**
+   case valor2: 
+
+         **Break**
+   case valor3: 
+
+         **Break**
+   default:
+
+   
+}
+```
