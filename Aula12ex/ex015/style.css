@@ -9,12 +9,12 @@
 body {
    background-color: rgb(0, 42, 97);
    font: normal 18px Arial;
-   margin: 50px;
 }
 
 header {
    color: whitesmoke;
    text-align: center;
+   padding: 15px;
 }
 
 section {
@@ -33,6 +33,10 @@ footer {
    font: normal 14px Arial;
 }
 
+div {
+   padding: 10px;
+}
+
 div#res {
    display: flex;
    flex-direction: column;
@@ -42,4 +46,8 @@ div#res {
 img {
    width: 250px;
    margin: 10px;
+}
+
+p {
+   padding: 10px;
 }
