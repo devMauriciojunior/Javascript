@@ -8,13 +8,22 @@
 
 img {
    border-radius: 50%;
-   width: 200px;
+   max-width: 250px;
+}
+
+h1 {
+   text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.450);
 }
 
 body {
-   background-color: rgb(0, 42, 97);
-   font: normal 18px Arial;
+   font: normal 1.2rem Arial;
    margin: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100vw;
+
 }
 
 header {
@@ -26,9 +35,10 @@ header {
 section {
    margin: auto;
    background-color: rgba(245, 245, 245, 0.5);
-   border-radius: 15px;
+   border-radius: 20px;
    padding: 15px;
-   width: 450px;
+   max-width: 350px;
+   min-width: 280px;
    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.450);
 }
 
