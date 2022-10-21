@@ -13,12 +13,12 @@
    </header>
    <section>
       <div>
-         <p>
-            Ano de nascimento:
-            <input type="number" name="txtano" id="txtano">
+         <p class="nasc">
+            <input type="number" name="txtano" id="txtano" required="">
+            <label>Ano de nascimento:</label>
          </p>
 
-         <p>
+         <p class="radio">
             Sexo:
             <input type="radio" name="radsex" id="masc" checked>
             <label for="masc">Masculino</label>
@@ -27,7 +27,7 @@
             <label for="fem">Feminino</label>
          </p>
 
-         <p>
+         <p class="btn">
             <input type="button" value="Verificar" onclick="verificar()">
          </p>
       </div>
