@@ -151,3 +151,17 @@ switch (expressão) {  | 'condição múltipla'
    
 }
 ```
+
+# Repetições
+Executa a condição primeiro e depois executa o bloco
+```
+While (condição) {
+   'bloco'
+}
+```
+Executa o bloco primeiro e depois executa a condição
+```
+do {
+   'bloco'
+} while (condição)
+```
