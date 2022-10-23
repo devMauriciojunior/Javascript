@@ -165,3 +165,8 @@ do {
    'bloco'
 } while (condição)
 ```
+```
+for (inicio; teste; incremento) {
+   'bloco'
+}
+```
