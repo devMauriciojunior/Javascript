@@ -32,3 +32,9 @@ footer {
    font-style: italic;
    font: normal 14px Arial;
 }
+
+select {
+   margin: 10px auto;
+   display: block;
+   overflow: hidden;
+}
