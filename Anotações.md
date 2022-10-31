@@ -4,7 +4,7 @@
  - 2 sinais de == significa 'igual'
  - sinal de + significa 'concatenação'
 
-# Identificadores:
+## Identificadores:
  - Podem começar com letra, $ ou _.
  - Não podem começar com numeros.
  - É possivel usar letras e números.
@@ -16,20 +16,20 @@
  - Letras Maiúsculas e Minúsculas fazem diferença.
  - Escolher nomes coerentes para as Variavéis.
 
-# O que são Variavéis?
+## O que são Variavéis?
    Variável é um espaço reservado na memória do computador que serve para armazenar um determinado tipo de informação.
 
-# Variavéis: var, let e const.
+## Variavéis: var, let e const.
    Strings = conjunto de caracteres com numeros, traços e pontos.
    Strings podem usar 3 'aspas': "string1", 'string2' e `string3`.
 
-# Tipos de Dados:
+## Tipos de Dados:
 **Tipos primitivos primordiais:**
    - Number: 5 18 -12 3.14 -56.3 0.6
    - Strings: 'Google' "JavaScript" `Junioor`
    - Boolean: true false
 
-# Operadores:
+## Operadores:
 **Tipos de operadores:**
    - Aritméticos
    - Atribuição
@@ -37,7 +37,7 @@
    - lógicos
    - ternarios
 
-# Operadores Aritméticos:
+## Operadores Aritméticos:
   - +  Somar   
   - -  Subtrair
   - *  Multiplicação 
@@ -52,13 +52,13 @@
   - 5 % 2 = 1
   - 5 ** 2 = 25
 
-# Ordem de precedência dos Operadores Aritméticos:
+## Ordem de precedência dos Operadores Aritméticos:
    1. ()
    2. **
    3. * / %
    4. + -
 
-# Auto Atribuições:
+## Auto Atribuições:
    **var n = 3**
     - n = n + 4  | ele vai pegar ele mesmo e somar 4
     - n = n - 5  | ele vai pegar ele mesmo e subtrair 5
@@ -67,7 +67,7 @@
     - n = n ** 2 | ele vai pegar ele mesmo e elevar a potência de 2
     - n = n % 5  | ele vai pegar ele mesmo dividir por 5 e dar o resto
 
-# Auto Atribuições: **Forma Simplificada:**
+## Auto Atribuições: **Forma Simplificada:**
    **var n = 3**
      - n += 4 
      - n -= 2
@@ -82,7 +82,7 @@
      - ++n  ele vai somar antes
      - --n  ele vai diminuir antes
 
-# Operadores relacionais
+## Operadores relacionais
   - > maior que
   - < menor que 
   - >= maior ou igual
@@ -90,18 +90,18 @@
   - == igual '=== igualdade estrita' '!== desigualdade estrita'
   - != diferente
 
-# Operadores Logicos
+## Operadores Logicos
  -  **Ordem de precedência dos Operadores Logicos:**
     - ! negação 'não logico'
     - && conjunção 'e logico'
     - || disjunção 'ou logico'
 
-# Operadores ternarios
+## Operadores ternarios
  -  ? 
  -  :
  -  'teste logico ? true : false'
 
-# DOM == Document Object Model
+## DOM == Document Object Model
  -  **Utilizando DOM => Selecionando objetos**
      - por Marca → getElementsByTagName()
      - por ID → getElementsById()
@@ -109,14 +109,14 @@
      - por Classe → getElementsByClassName()
      - por Seletor → querrySelector() querrySelectorAll()
 
-# Funções 
+## Funções 
 ```
    function 'nome da função'(parâmetro){
       'códigos da função'
    }
 ```
 
-# Condições 
+## Condições 
 ```
    if (condição) {   | 'condição simples'
          'true'      |
@@ -152,7 +152,7 @@ switch (expressão) {  | 'condição múltipla'
 }
 ```
 
-# Repetições
+### Repetições
 Executa a condição primeiro e depois executa o bloco
 ```
 While (condição) {
@@ -170,3 +170,7 @@ for (inicio; teste; incremento) {
    'bloco'
 }
 ```
+
+## Arrays
+
+var a = [car, car, car]
