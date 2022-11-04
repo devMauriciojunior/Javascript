@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Analisador de numeros</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+      <h1>Analisador de números</h1>
+   </header>
+   <section>
+      <div>
+         <p>Numeros (entre 1 e 100):</p>
+         <p><input type="number" name="txtn" id="txtn">
+            <input id="botaoa" type="submit" value="Adicionar" onclick="adicionar()">
+            <input id="botaof" type="submit" value="Finalizar" onclick="finalizar()">
+            <select name="resultado" id="res" size="5"></select>
+         </p>
+      </div>
+      <div id="textos">
+         
+      </div>
+   </section>
+   <footer>
+      <p>&copy Mauricio JR</p>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
