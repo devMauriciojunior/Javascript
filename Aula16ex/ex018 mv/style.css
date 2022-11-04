@@ -42,10 +42,10 @@ input[type='number'] {
 
 select {
    display: block;
-   overflow: hidden;
    padding: 7px;
    font-size: 15px;
-   width: 35%;
+   width: 45%;
+   text-align: center;
 }
 
 footer {
