@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tabuada</title>
+   <style>
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(0, 42, 97);
+   color: #fff;
+   font: normal 18px Arial;
+   margin: 50px;
+}
+
+div {
+   height: 200px;
+   width: 200px;
+}
+   </style>
+</head>
+<body>
+   <p>
+      <input type="number" name="" id="num">
+      <input type="submit" value="enviar" id="btn">
+   </p>
+   <div id="divi"></div>
+
+   <script>
+      let btn = document.getElementById('btn')
+      let res = document.getElementById('divi')
+      
+      btn.addEventListener('click', () => {
+         let num = document.getElementById('num').value
+         console.log(num)
+         
+         res.innerHTML = "";
+         for(i = 0; i <= 10; i++) {
+            let resultado = num * i
+            res.innerHTML += `${num} x ${i} = ${resultado} </br>`
+         }
+         num = ''
+      })
+   </script>
+</body>
+</html>

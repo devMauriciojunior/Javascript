@@ -4,7 +4,7 @@ function contar() {
    let pas = document.getElementById('txtp')
    let res = document.getElementById('res')
 
-   if (ini.value.length == 0 || fim.value.lenght == 0 || passo.value.lenght == 0) {
+   if (ini.value.length == 0 || fim.value.lenght == 0 || pas.value.lenght == 0) {
       alert ('Faltam dados')
    } else {
       res.innerHTML = 'Contando.. <br>'
