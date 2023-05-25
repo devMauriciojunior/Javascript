@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Fahrenheit para Celsius</title>
+
+   <style>
+      body {
+         background-color: #1a233f;
+         color: #fff;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+         text-align: center;
+      }
+
+      h2 {
+         color: rgb(255, 87, 124);
+         font-size: 1.7rem;
+      }
+   </style>
+</head>
+<body>
+   <h1>Conversor de Fahrenheit para Celsius</h1>
+   <p>
+      <label for="">Valor em F° </label>
+      <input type="number" id="Fah">
+   </p>
+   <button id="btn">Converter</button>
+   <h2 id="resposta">Resultado</h2>
+
+   <script>
+      let btn = document.getElementById("btn");
+
+      btn.addEventListener("click", () => {
+         let fah = document.getElementById("Fah").value
+         let converter = (fah - 32) / 1.8 
+
+         document.getElementById("resposta").innerHTML = `C° ${converter.toFixed(1)} Graus`
+      })
+   </script>
+</body>
+</html>
