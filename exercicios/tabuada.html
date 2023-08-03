@@ -38,15 +38,11 @@ div {
       let res = document.getElementById('divi')
       
       btn.addEventListener('click', () => {
-         let num = document.getElementById('num').value
-         console.log(num)
-         
-         res.innerHTML = "";
+         let num = document.getElementById('num').value       
          for(i = 0; i <= 10; i++) {
             let resultado = num * i
             res.innerHTML += `${num} x ${i} = ${resultado} </br>`
          }
-         num = ''
       })
    </script>
 </body>
